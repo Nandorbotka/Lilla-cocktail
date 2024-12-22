@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+    min-height: 100vh;
+    height: fit-content;
+    width: 100%;
+    background-image: url(images/dirty\ santa\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+}
+
+h1 {
+    font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6rem;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  background-color: #C1291D;
+  border-radius: 20px;
+  color: #F2F3F8;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  color: black;
+   width: 40%;
+   text-align: center;
+   display: block;
+   margin: auto;
+   margin-top: 100px;
+   padding: 20px;
+  background-color: #C1291D;
+  border-radius: 20px;
+  color: #F2F3F8;
+}
+
+a:hover {
+    background-color: #F2F3F8;
+    color: #C1291D;
+    transition: 1s;
+}
+
+ #recepie {
+    min-height: 100vh;
+    height: fit-content;
+    width: 100%;
+    padding: 50px;
+ }
+
+ h2 {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 3rem;
+ }
+
+#mistletoe-div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#mistletoe-div img {
+    width: 10%;
+    object-fit: contain;
+}
+
+#mistletoe-div img:nth-child(3) {
+transform: scaleX(-1);
+}
+
+#recepie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 700px;
+    margin: auto;
+}
+ 
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+ul {
+    display: block;
+  margin-top: 20px;
+  list-style: none;
+}
+
+li {
+    margin-top: 20px;
+}
+
+.container img {
+ width: 80%;
+ border-radius: 20px;
+ margin: auto;
+ margin-top: 20px;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    a {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:425px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
